@@ -1,0 +1,187 @@
+.contact-section {
+  background: var(--bg2);
+  overflow: hidden;
+}
+
+.contact-hero {
+  position: relative;
+  text-align: center;
+  padding: 60px 40px;
+  background: rgba(255,255,255,0.01);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.contact-orb {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(131,58,180,0.14) 0%, transparent 70%);
+  top: -200px;
+  left: -100px;
+  pointer-events: none;
+  animation: pulse-glow 4s ease-in-out infinite;
+}
+
+.contact-orb-2 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(225,48,108,0.1) 0%, transparent 70%);
+  bottom: -100px;
+  right: -100px;
+  pointer-events: none;
+  animation: pulse-glow 4s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+.contact-hero .section-label {
+  justify-content: center;
+}
+
+.contact-hero .section-label::before {
+  display: none;
+}
+
+.contact-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(56px, 10vw, 120px);
+  line-height: 0.9;
+  letter-spacing: 4px;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-sub {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.55);
+  max-width: 600px;
+  margin: 0 auto 48px;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 800px;
+  margin: 0 auto 32px;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-card:hover {
+  background: rgba(193,53,132,0.08);
+  border-color: rgba(193,53,132,0.3);
+  transform: translateY(-3px);
+}
+
+.contact-card-ig:hover {
+  background: rgba(131,58,180,0.1);
+  border-color: rgba(131,58,180,0.4);
+}
+
+.contact-card-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  color: rgba(255,255,255,0.8);
+}
+
+.contact-card-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.contact-card-label {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.35);
+  margin-bottom: 4px;
+}
+
+.contact-card-value {
+  display: block;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.9);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contact-card-action {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(225,48,108,0.9);
+  flex-shrink: 0;
+  letter-spacing: 0.5px;
+}
+
+.contact-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 32px;
+  background: linear-gradient(135deg, #25D366, #128C7E);
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 20px rgba(37,211,102,0.3);
+}
+
+.btn-whatsapp:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(37,211,102,0.5);
+}
+
+@media (max-width: 768px) {
+  .contact-cards { grid-template-columns: 1fr; }
+  .contact-hero { padding: 40px 20px; }
+}

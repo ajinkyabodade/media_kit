@@ -1,0 +1,774 @@
+﻿{
+    "profile":  {
+                    "name":  "Ajinkya Bodade",
+                    "handle":  "@nightfury_traveller",
+                    "instagramUrl":  "https://www.instagram.com/nightfury_traveller/",
+                    "tagline":  "Exploring the Unexplored",
+                    "bio":  "Traveller. Rider. Trekker. I chase raw landscapes, hidden roads, and untold stories across South India â€” one adventure at a time.",
+                    "longBio":  "Ajinkya Bodade, known as @nightfury_traveller, is a passionate travel content creator based in Bangalore, India. With a deep love for motorcycles, mountains, and unexplored terrain, Ajinkya documents his journeys through South India\u0027s most breathtaking and off-the-beaten-path destinations. His content blends cinematic visuals with authentic storytelling â€” capturing the thrill of the open road, the serenity of hidden trails, and the warmth of local culture. From misty Western Ghats to coastal Karnataka, every frame tells a story worth experiencing.",
+                    "location":  "Bangalore, Karnataka, India",
+                    "niche":  [
+                                  "Travel",
+                                  "Riding",
+                                  "Trekking",
+                                  "Adventure",
+                                  "South India"
+                              ],
+                    "phone":  "7066425769",
+                    "email":  "bodadeajinkya@gmail.com",
+                    "avatar":  "https://i.ibb.co/XHgtjyT/bio-2.jpg"
+                },
+    "stats":  {
+                  "followers":  "36K+",
+                  "followersExact":  36000,
+                  "avgReach":  "25,000+",
+                  "avgViews":  "35,000+",
+                  "engagementRate":  "8.2%",
+                  "totalCollabs":  "10+",
+                  "topReelViews":  "1.7M+",
+                  "audienceIndia":  "95.8%",
+                  "audienceBangalore":  "85.7%"
+              },
+    "audience":  {
+                     "gender":  {
+                                    "men":  75.3,
+                                    "women":  23.5,
+                                    "other":  1.2
+                                },
+                     "ageGender":  [
+                                       {
+                                           "age":  "18-24",
+                                           "men":  11.5,
+                                           "women":  2.2
+                                       },
+                                       {
+                                           "age":  "25-34",
+                                           "men":  40.4,
+                                           "women":  10.8
+                                       },
+                                       {
+                                           "age":  "35-44",
+                                           "men":  19.0,
+                                           "women":  7.8
+                                       },
+                                       {
+                                           "age":  "45-54",
+                                           "men":  4.1,
+                                           "women":  2.1
+                                       },
+                                       {
+                                           "age":  "55-64",
+                                           "men":  0.9,
+                                           "women":  0.6
+                                       },
+                                       {
+                                           "age":  "65+",
+                                           "men":  0.4,
+                                           "women":  0.2
+                                       }
+                                   ],
+                     "topCities":  [
+                                       {
+                                           "city":  "Bangalore, Karnataka",
+                                           "percent":  85.7
+                                       },
+                                       {
+                                           "city":  "Baiyyappanahalli, Karnataka",
+                                           "percent":  3.6
+                                       },
+                                       {
+                                           "city":  "Jigani, Karnataka",
+                                           "percent":  2.4
+                                       },
+                                       {
+                                           "city":  "Chennai, Tamil Nadu",
+                                           "percent":  1.9
+                                       },
+                                       {
+                                           "city":  "Hoskote, Karnataka",
+                                           "percent":  1.8
+                                       },
+                                       {
+                                           "city":  "Sarjapur, Karnataka",
+                                           "percent":  1.6
+                                       },
+                                       {
+                                           "city":  "T Dasarahalli, Karnataka",
+                                           "percent":  1.2
+                                       },
+                                       {
+                                           "city":  "Chanda Nagar, Telangana",
+                                           "percent":  0.7
+                                       },
+                                       {
+                                           "city":  "Hyderabad, Telangana",
+                                           "percent":  0.6
+                                       },
+                                       {
+                                           "city":  "Kumbalagod, Karnataka",
+                                           "percent":  0.6
+                                       }
+                                   ],
+                     "topCountries":  [
+                                          {
+                                              "country":  "India",
+                                              "percent":  95.8
+                                          },
+                                          {
+                                              "country":  "Iran",
+                                              "percent":  0.5
+                                          },
+                                          {
+                                              "country":  "Pakistan",
+                                              "percent":  0.4
+                                          },
+                                          {
+                                              "country":  "United States",
+                                              "percent":  0.3
+                                          },
+                                          {
+                                              "country":  "UAE",
+                                              "percent":  0.3
+                                          },
+                                          {
+                                              "country":  "Bangladesh",
+                                              "percent":  0.2
+                                          },
+                                          {
+                                              "country":  "Morocco",
+                                              "percent":  0.1
+                                          },
+                                          {
+                                              "country":  "United Kingdom",
+                                              "percent":  0.1
+                                          },
+                                          {
+                                              "country":  "Iraq",
+                                              "percent":  0.1
+                                          },
+                                          {
+                                              "country":  "Saudi Arabia",
+                                              "percent":  0.1
+                                          }
+                                      ]
+                 },
+    "analytics":  {
+                      "follows":  [
+                                      {
+                                          "date":  "2026-02-13",
+                                          "value":  107
+                                      },
+                                      {
+                                          "date":  "2026-02-14",
+                                          "value":  148
+                                      },
+                                      {
+                                          "date":  "2026-02-15",
+                                          "value":  93
+                                      },
+                                      {
+                                          "date":  "2026-02-16",
+                                          "value":  50
+                                      },
+                                      {
+                                          "date":  "2026-02-17",
+                                          "value":  58
+                                      },
+                                      {
+                                          "date":  "2026-02-18",
+                                          "value":  38
+                                      },
+                                      {
+                                          "date":  "2026-02-19",
+                                          "value":  52
+                                      },
+                                      {
+                                          "date":  "2026-02-20",
+                                          "value":  70
+                                      },
+                                      {
+                                          "date":  "2026-02-21",
+                                          "value":  131
+                                      },
+                                      {
+                                          "date":  "2026-02-22",
+                                          "value":  134
+                                      },
+                                      {
+                                          "date":  "2026-02-23",
+                                          "value":  80
+                                      },
+                                      {
+                                          "date":  "2026-02-24",
+                                          "value":  71
+                                      },
+                                      {
+                                          "date":  "2026-02-25",
+                                          "value":  69
+                                      },
+                                      {
+                                          "date":  "2026-02-26",
+                                          "value":  75
+                                      },
+                                      {
+                                          "date":  "2026-02-27",
+                                          "value":  92
+                                      },
+                                      {
+                                          "date":  "2026-02-28",
+                                          "value":  63
+                                      },
+                                      {
+                                          "date":  "2026-03-01",
+                                          "value":  76
+                                      },
+                                      {
+                                          "date":  "2026-03-02",
+                                          "value":  52
+                                      },
+                                      {
+                                          "date":  "2026-03-03",
+                                          "value":  56
+                                      },
+                                      {
+                                          "date":  "2026-03-04",
+                                          "value":  46
+                                      },
+                                      {
+                                          "date":  "2026-03-05",
+                                          "value":  41
+                                      },
+                                      {
+                                          "date":  "2026-03-06",
+                                          "value":  71
+                                      },
+                                      {
+                                          "date":  "2026-03-07",
+                                          "value":  79
+                                      },
+                                      {
+                                          "date":  "2026-03-08",
+                                          "value":  62
+                                      },
+                                      {
+                                          "date":  "2026-03-09",
+                                          "value":  56
+                                      },
+                                      {
+                                          "date":  "2026-03-10",
+                                          "value":  46
+                                      },
+                                      {
+                                          "date":  "2026-03-11",
+                                          "value":  48
+                                      },
+                                      {
+                                          "date":  "2026-03-12",
+                                          "value":  61
+                                      }
+                                  ],
+                      "interactions":  [
+                                           {
+                                               "date":  "2026-02-13",
+                                               "value":  5290
+                                           },
+                                           {
+                                               "date":  "2026-02-14",
+                                               "value":  6316
+                                           },
+                                           {
+                                               "date":  "2026-02-15",
+                                               "value":  4353
+                                           },
+                                           {
+                                               "date":  "2026-02-16",
+                                               "value":  2872
+                                           },
+                                           {
+                                               "date":  "2026-02-17",
+                                               "value":  2142
+                                           },
+                                           {
+                                               "date":  "2026-02-18",
+                                               "value":  1974
+                                           },
+                                           {
+                                               "date":  "2026-02-19",
+                                               "value":  2335
+                                           },
+                                           {
+                                               "date":  "2026-02-20",
+                                               "value":  2917
+                                           },
+                                           {
+                                               "date":  "2026-02-21",
+                                               "value":  3350
+                                           },
+                                           {
+                                               "date":  "2026-02-22",
+                                               "value":  3019
+                                           },
+                                           {
+                                               "date":  "2026-02-23",
+                                               "value":  2394
+                                           },
+                                           {
+                                               "date":  "2026-02-24",
+                                               "value":  3142
+                                           },
+                                           {
+                                               "date":  "2026-02-25",
+                                               "value":  2465
+                                           },
+                                           {
+                                               "date":  "2026-02-26",
+                                               "value":  2271
+                                           },
+                                           {
+                                               "date":  "2026-02-27",
+                                               "value":  3503
+                                           },
+                                           {
+                                               "date":  "2026-02-28",
+                                               "value":  2563
+                                           },
+                                           {
+                                               "date":  "2026-03-01",
+                                               "value":  2433
+                                           },
+                                           {
+                                               "date":  "2026-03-02",
+                                               "value":  2110
+                                           },
+                                           {
+                                               "date":  "2026-03-03",
+                                               "value":  1981
+                                           },
+                                           {
+                                               "date":  "2026-03-04",
+                                               "value":  1445
+                                           },
+                                           {
+                                               "date":  "2026-03-05",
+                                               "value":  1167
+                                           },
+                                           {
+                                               "date":  "2026-03-06",
+                                               "value":  4065
+                                           },
+                                           {
+                                               "date":  "2026-03-07",
+                                               "value":  6001
+                                           },
+                                           {
+                                               "date":  "2026-03-08",
+                                               "value":  3062
+                                           },
+                                           {
+                                               "date":  "2026-03-09",
+                                               "value":  2776
+                                           },
+                                           {
+                                               "date":  "2026-03-10",
+                                               "value":  3921
+                                           },
+                                           {
+                                               "date":  "2026-03-11",
+                                               "value":  9333
+                                           },
+                                           {
+                                               "date":  "2026-03-12",
+                                               "value":  10527
+                                           }
+                                       ],
+                      "reach":  [
+                                    {
+                                        "date":  "2026-02-13",
+                                        "value":  36130
+                                    },
+                                    {
+                                        "date":  "2026-02-14",
+                                        "value":  48907
+                                    },
+                                    {
+                                        "date":  "2026-02-15",
+                                        "value":  31638
+                                    },
+                                    {
+                                        "date":  "2026-02-16",
+                                        "value":  20459
+                                    },
+                                    {
+                                        "date":  "2026-02-17",
+                                        "value":  16940
+                                    },
+                                    {
+                                        "date":  "2026-02-18",
+                                        "value":  15143
+                                    },
+                                    {
+                                        "date":  "2026-02-19",
+                                        "value":  16392
+                                    },
+                                    {
+                                        "date":  "2026-02-20",
+                                        "value":  22998
+                                    },
+                                    {
+                                        "date":  "2026-02-21",
+                                        "value":  28435
+                                    },
+                                    {
+                                        "date":  "2026-02-22",
+                                        "value":  24623
+                                    },
+                                    {
+                                        "date":  "2026-02-23",
+                                        "value":  19384
+                                    },
+                                    {
+                                        "date":  "2026-02-24",
+                                        "value":  19825
+                                    },
+                                    {
+                                        "date":  "2026-02-25",
+                                        "value":  15843
+                                    },
+                                    {
+                                        "date":  "2026-02-26",
+                                        "value":  15534
+                                    },
+                                    {
+                                        "date":  "2026-02-27",
+                                        "value":  25768
+                                    },
+                                    {
+                                        "date":  "2026-02-28",
+                                        "value":  22462
+                                    },
+                                    {
+                                        "date":  "2026-03-01",
+                                        "value":  18648
+                                    },
+                                    {
+                                        "date":  "2026-03-02",
+                                        "value":  14992
+                                    },
+                                    {
+                                        "date":  "2026-03-03",
+                                        "value":  14895
+                                    },
+                                    {
+                                        "date":  "2026-03-04",
+                                        "value":  10623
+                                    },
+                                    {
+                                        "date":  "2026-03-05",
+                                        "value":  8718
+                                    },
+                                    {
+                                        "date":  "2026-03-06",
+                                        "value":  33167
+                                    },
+                                    {
+                                        "date":  "2026-03-07",
+                                        "value":  44581
+                                    },
+                                    {
+                                        "date":  "2026-03-08",
+                                        "value":  18374
+                                    },
+                                    {
+                                        "date":  "2026-03-09",
+                                        "value":  16701
+                                    },
+                                    {
+                                        "date":  "2026-03-10",
+                                        "value":  49233
+                                    },
+                                    {
+                                        "date":  "2026-03-11",
+                                        "value":  90230
+                                    },
+                                    {
+                                        "date":  "2026-03-12",
+                                        "value":  71531
+                                    }
+                                ],
+                      "views":  [
+                                    {
+                                        "date":  "2026-02-13",
+                                        "value":  53362
+                                    },
+                                    {
+                                        "date":  "2026-02-14",
+                                        "value":  74353
+                                    },
+                                    {
+                                        "date":  "2026-02-15",
+                                        "value":  45495
+                                    },
+                                    {
+                                        "date":  "2026-02-16",
+                                        "value":  29380
+                                    },
+                                    {
+                                        "date":  "2026-02-17",
+                                        "value":  24231
+                                    },
+                                    {
+                                        "date":  "2026-02-18",
+                                        "value":  22091
+                                    },
+                                    {
+                                        "date":  "2026-02-19",
+                                        "value":  23633
+                                    },
+                                    {
+                                        "date":  "2026-02-20",
+                                        "value":  36184
+                                    },
+                                    {
+                                        "date":  "2026-02-21",
+                                        "value":  42564
+                                    },
+                                    {
+                                        "date":  "2026-02-22",
+                                        "value":  44318
+                                    },
+                                    {
+                                        "date":  "2026-02-23",
+                                        "value":  28632
+                                    },
+                                    {
+                                        "date":  "2026-02-24",
+                                        "value":  29253
+                                    },
+                                    {
+                                        "date":  "2026-02-25",
+                                        "value":  23850
+                                    },
+                                    {
+                                        "date":  "2026-02-26",
+                                        "value":  21589
+                                    },
+                                    {
+                                        "date":  "2026-02-27",
+                                        "value":  44156
+                                    },
+                                    {
+                                        "date":  "2026-02-28",
+                                        "value":  41540
+                                    },
+                                    {
+                                        "date":  "2026-03-01",
+                                        "value":  27861
+                                    },
+                                    {
+                                        "date":  "2026-03-02",
+                                        "value":  21516
+                                    },
+                                    {
+                                        "date":  "2026-03-03",
+                                        "value":  21783
+                                    },
+                                    {
+                                        "date":  "2026-03-04",
+                                        "value":  15409
+                                    },
+                                    {
+                                        "date":  "2026-03-05",
+                                        "value":  12783
+                                    },
+                                    {
+                                        "date":  "2026-03-06",
+                                        "value":  51086
+                                    },
+                                    {
+                                        "date":  "2026-03-07",
+                                        "value":  63520
+                                    },
+                                    {
+                                        "date":  "2026-03-08",
+                                        "value":  26585
+                                    },
+                                    {
+                                        "date":  "2026-03-09",
+                                        "value":  23607
+                                    },
+                                    {
+                                        "date":  "2026-03-10",
+                                        "value":  60538
+                                    },
+                                    {
+                                        "date":  "2026-03-11",
+                                        "value":  121765
+                                    },
+                                    {
+                                        "date":  "2026-03-12",
+                                        "value":  105916
+                                    }
+                                ]
+                  },
+    "collaborations":  [
+                           {
+                               "id":  "escape2explore",
+                               "brand":  "Escape2Explore",
+                               "type":  "Collaboration",
+                               "category":  "Travel / Adventure",
+                               "highlight":  "Multi-Story + Reel",
+                               "highlightValue":  null,
+                               "description":  "A travel collaboration with Escape2Explore, featuring immersive stories and a reel that captured the spirit of adventure travel in South India.",
+                               "reel":  "https://www.instagram.com/reel/DVWbSVwjNGz/?igsh=MTk0bjVhaHRlOGFvcA==",
+                               "stories":  [
+                                               "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDA2MTk2MDE5ODUwOTg1?story_media_id=3842327305784483587_2059831270\u0026igsh=MXZtbGZ2YTA2OGc1eQ==",
+                                               "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDA2MTk2MDE5ODUwOTg1?story_media_id=3842366377705942373_2059831270\u0026igsh=MXZtbGZ2YTA2OGc1eQ==",
+                                               "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDA2MTk2MDE5ODUwOTg1?story_media_id=3842414925642308534_2059831270\u0026igsh=MXZtbGZ2YTA2OGc1eQ=="
+                                           ],
+                               "images":  [
+                                              "https://i.ibb.co/Y4BPz1R4/Screenshot-2026-03-14-08-41-27-424-com-instagram-android-edit.jpg",
+                                              "https://i.ibb.co/nNWMnpn4/Screenshot-2026-03-14-08-40-42-822-com-instagram-android-edit.jpg",
+                                              "https://i.ibb.co/Vc0fx7xx/Screenshot-2026-03-14-08-41-10-008-com-instagram-android-edit.jpg",
+                                              "https://i.ibb.co/nshr2Xrw/Screenshot-2026-03-14-08-40-52-388-com-instagram-android-edit.jpg"
+                                          ],
+                               "color":  "#FCAF45"
+                           },
+                           {
+                               "id":  "grips-go-karting",
+                               "brand":  "Grips Go Karting",
+                               "type":  "Paid Collaboration",
+                               "category":  "Entertainment / Adventure",
+                               "highlight":  "1.7M+ Views",
+                               "highlightValue":  1700000,
+                               "description":  "A viral reel showcasing the adrenaline rush at Grips Go Karting, Bangalore. The content resonated massively with the adventure-loving audience.",
+                               "reel":  "https://www.instagram.com/reel/C3eFbs5SR2Z/?igsh=ODFncmxnYTAzbHYy",
+                               "story":  "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDA2MTk2MDE5ODUwOTg1?story_media_id=3299485951185332027_2059831270\u0026igsh=MXZtbGZ2YTA2OGc1eQ==",
+                               "images":  [
+                                              "https://i.ibb.co/NdBCtqXh/Screenshot-2026-03-14-08-30-28-665-com-instagram-android-edit.jpg",
+                                              "https://i.ibb.co/4kBjHh4/Screenshot-2026-03-14-08-31-18-395-com-instagram-android-edit.jpg"
+                                          ],
+                               "color":  "#E1306C"
+                           },
+                           {
+                               "id":  "club-cabana",
+                               "brand":  "Club Cabana",
+                               "type":  "Paid Collaboration",
+                               "category":  "Resort / Entertainment",
+                               "highlight":  "1M+ Views",
+                               "highlightValue":  1000000,
+                               "description":  "A stunning reel of Club Cabana\u0027s resort experience that crossed 1 million views, driving massive brand awareness among Bangalore\u0027s travel community.",
+                               "reel":  "https://www.instagram.com/reel/C5YRB0cNiXU/?igsh=MXR5MzdpZXEydXN0aQ==",
+                               "story":  null,
+                               "images":  [
+                                              "https://i.ibb.co/cKLXs0q1/Screenshot-2026-03-14-08-35-00-157-com-instagram-android-edit.jpg",
+                                              "https://i.ibb.co/Jj05QmYX/Screenshot-2026-03-14-08-35-28-474-com-instagram-android-edit.jpg"
+                                          ],
+                               "color":  "#833AB4"
+                           },
+                           {
+                               "id":  "torq03",
+                               "brand":  "Torq03",
+                               "type":  "Paid Collaboration",
+                               "category":  "Automobile / EV",
+                               "highlight":  "150K Views",
+                               "highlightValue":  150000,
+                               "description":  "An engaging reel featuring the Torq03 electric vehicle, perfectly aligned with the riding community audience.",
+                               "reel":  "https://www.instagram.com/reel/DGYNKTbPNx3/?igsh=MXVsZWtqZWYxY3lrNQ==",
+                               "story":  null,
+                               "images":  [
+                                              "https://i.ibb.co/TD0bGV46/Screenshot-2026-03-14-08-36-02-662-com-instagram-android-edit.jpg",
+                                              "https://i.ibb.co/rKS07jDB/Screenshot-2026-03-14-08-36-14-374-com-instagram-android-edit.jpg"
+                                          ],
+                               "color":  "#C13584"
+                           },
+                           {
+                               "id":  "hotel-grand-sceren",
+                               "brand":  "Hotel Grand Sceren",
+                               "type":  "Paid Collaboration",
+                               "category":  "Hotel / Hospitality",
+                               "highlight":  "Multi-Story Campaign",
+                               "highlightValue":  null,
+                               "description":  "A comprehensive hotel collaboration featuring multiple stories and a reel, showcasing the property\u0027s unique offerings to a highly engaged travel audience.",
+                               "reel":  "https://www.instagram.com/reel/DN9lAlajwo2/?igsh=bDBtZjRkdW02eW54",
+                               "stories":  [
+                                               "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDA2MTk2MDE5ODUwOTg1?story_media_id=3706839340759032575_2059831270\u0026igsh=MXZtbGZ2YTA2OGc1eQ==",
+                                               "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDA2MTk2MDE5ODUwOTg1?story_media_id=3707089937361715614_2059831270\u0026igsh=MXZtbGZ2YTA2OGc1eQ==",
+                                               "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDA2MTk2MDE5ODUwOTg1?story_media_id=3707718354872714997_2059831270\u0026igsh=MXZtbGZ2YTA2OGc1eQ==",
+                                               "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDA2MTk2MDE5ODUwOTg1?story_media_id=3708123395974648155_2059831270\u0026igsh=MXZtbGZ2YTA2OGc1eQ=="
+                                           ],
+                               "images":  [
+                                              "https://i.ibb.co/tM6jds32/Screenshot-2026-03-14-08-39-09-326-com-instagram-android-edit.jpg",
+                                              "https://i.ibb.co/HppYSgSF/Screenshot-2026-03-14-08-38-51-494-com-instagram-android-edit.jpg",
+                                              "https://i.ibb.co/Kxr37yPG/Screenshot-2026-03-14-08-38-33-005-com-instagram-android-edit.jpg",
+                                              "https://i.ibb.co/0p1JLkjM/Screenshot-2026-03-14-08-38-23-054-com-instagram-android-edit.jpg"
+                                          ],
+                               "color":  "#F77737"
+                           }
+                       ],
+    "travelPhotos":  [
+                         "https://i.ibb.co/wZ0fWspF/GUIDE-TO-20250412-074943-0000.jpg",
+                         "https://i.ibb.co/sdDp92zz/Fun-Pic-20250829-131055853.jpg",
+                         "https://i.ibb.co/CN5Y8Xv/Fun-Pic-20250829-145435680.jpg",
+                         "https://i.ibb.co/0jbKYcHX/IMG-20250703-064742.jpg",
+                         "https://i.ibb.co/d4ZpgYWL/IMG-20240807-181725.jpg",
+                         "https://i.ibb.co/21GmGZFP/Enroute-Talakaveri-270kms-from-Bengaluru-20250215-103100-0000.png",
+                         "https://i.ibb.co/KpGYxLtY/IMG-20241226-150611.jpg",
+                         "https://i.ibb.co/KpyDPW1X/Caro-1765086776730-5.png",
+                         "https://i.ibb.co/Fkjsm17G/Fun-Pic-20250420-105706049.jpg",
+                         "https://i.ibb.co/Ty3CpSK/GUIDE-TO-20250412-074943-0002.jpg",
+                         "https://i.ibb.co/C5b56mJ9/IMG-20250622-122115.jpg",
+                         "https://i.ibb.co/84fDTTDp/Caro-1765086775119-1.png",
+                         "https://i.ibb.co/YBLMZyyv/Screenshot-2025-11-25-17-47-29-269-com-instagram-android-edit.jpg",
+                         "https://i.ibb.co/XHgtjyT/bio-2.jpg",
+                         "https://i.ibb.co/60pVyN36/bio-1.jpg",
+                         "https://i.ibb.co/QF3f60NT/IMG-20250829-144117.jpg"
+                     ],
+    "targetBrands":  [
+                         {
+                             "icon":  "plane",
+                             "title":  "Travel Companies",
+                             "desc":  "Tour operators, travel agencies, adventure travel brands targeting South India explorers"
+                         },
+                         {
+                             "icon":  "hotel",
+                             "title":  "Hotels \u0026 Resorts",
+                             "desc":  "Boutique hotels, luxury resorts, homestays, and eco-lodges across South India"
+                         },
+                         {
+                             "icon":  "bike",
+                             "title":  "Automobile Brands",
+                             "desc":  "Motorcycles, EVs, adventure vehicles, and automotive accessories brands"
+                         },
+                         {
+                             "icon":  "backpack",
+                             "title":  "Outdoor \u0026 Gear",
+                             "desc":  "Trekking gear, camping equipment, travel accessories, and outdoor lifestyle brands"
+                         }
+                     ],
+    "services":  [
+                     {
+                         "name":  "Instagram Reel",
+                         "desc":  "Cinematic short-form video content"
+                     },
+                     {
+                         "name":  "Instagram Stories",
+                         "desc":  "Authentic day-in-life story series"
+                     },
+                     {
+                         "name":  "Feed Posts",
+                         "desc":  "High-quality photography \u0026 captions"
+                     },
+                     {
+                         "name":  "Location Features",
+                         "desc":  "Destination spotlights \u0026 reviews"
+                     },
+                     {
+                         "name":  "Brand Integration",
+                         "desc":  "Seamless product/service integration"
+                     },
+                     {
+                         "name":  "Long-term Campaigns",
+                         "desc":  "Multi-post brand ambassador deals"
+                     }
+                 ]
+}
