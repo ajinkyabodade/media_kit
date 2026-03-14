@@ -1,9 +1,11 @@
 # Dependencies
 node_modules/
-.pnp
-.pnp.js
 
-# Vite cache (local + external)
+# Build output — deployed via gh-pages branch, not tracked in main
+dist/
+assets/
+
+# Vite cache
 .vite/
 *.local
 C:/projects/.vite-cache/
