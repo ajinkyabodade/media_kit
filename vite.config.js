@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/media_kit/',
   cacheDir: 'C:/projects/.vite-cache/media_kit',
   build: {
     outDir: 'dist',
