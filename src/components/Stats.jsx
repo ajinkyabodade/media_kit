@@ -11,7 +11,7 @@ const STATS = [
     label: 'Followers',
     sub: 'Instagram',
     color: '#E1306C',
-    icon: 'ðŸ‘¥'
+    icon: '\uD83D\uDC65'
   },
   {
     value: 1.7,
@@ -19,7 +19,7 @@ const STATS = [
     label: 'Top Reel Views',
     sub: 'Single Reel',
     color: '#F77737',
-    icon: 'ðŸŽ¬',
+    icon: '\uD83C\uDFAC',
     decimals: 1
   },
   {
@@ -28,7 +28,7 @@ const STATS = [
     label: 'Indian Audience',
     sub: 'Highly Targeted',
     color: '#833AB4',
-    icon: 'ðŸ‡®ðŸ‡³',
+    icon: '\uD83C\uDDEE\uD83C\uDDF3',
     decimals: 1
   },
   {
@@ -37,7 +37,7 @@ const STATS = [
     label: 'Bangalore Audience',
     sub: 'Local Dominance',
     color: '#C13584',
-    icon: 'ðŸ“',
+    icon: '\uD83D\uDCCD',
     decimals: 1
   },
   {
@@ -46,7 +46,7 @@ const STATS = [
     label: 'Engagement Rate',
     sub: 'Above Industry Avg',
     color: '#FCAF45',
-    icon: 'ðŸ’¥',
+    icon: '\uD83D\uDCA5',
     decimals: 1
   },
   {
@@ -55,7 +55,7 @@ const STATS = [
     label: 'Brand Collabs',
     sub: 'Paid Partnerships',
     color: '#E1306C',
-    icon: 'ðŸ¤'
+    icon: '\uD83E\uDD1D'
   },
 ]
 
@@ -126,4 +126,3 @@ export default function Stats() {
     </section>
   )
 }
-

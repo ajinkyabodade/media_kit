@@ -14,6 +14,8 @@ import './Audience.css'
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, ArcElement, Tooltip, Legend)
 
+const isMobile = () => typeof window !== 'undefined' && window.innerWidth <= 600
+
 const chartDefaults = {
   plugins: {
     legend: { display: false },
@@ -31,6 +33,9 @@ const chartDefaults = {
 
 export default function Audience() {
   const { ageGender, topCities, topCountries, gender } = data.audience
+  const mobile = isMobile()
+  const tickSm = mobile ? 9 : 11
+  const tickMd = mobile ? 9 : 12
 
   const ageBarData = {
     labels: ageGender.map(d => d.age),
@@ -81,6 +86,56 @@ export default function Audience() {
     }]
   }
 
+  const ageBarOptions = {
+    ...chartDefaults,
+    responsive: true,
+    maintainAspectRatio: false,
+    scales: {
+      x: {
+        grid: { color: 'rgba(255,255,255,0.04)' },
+        ticks: { color: 'rgba(255,255,255,0.5)', font: { family: 'Inter', size: tickSm }, maxRotation: 0 },
+        border: { color: 'rgba(255,255,255,0.08)' }
+      },
+      y: {
+        grid: { color: 'rgba(255,255,255,0.04)' },
+        ticks: {
+          color: 'rgba(255,255,255,0.5)',
+          font: { family: 'Inter', size: tickSm },
+          callback: v => v + '%',
+          maxTicksLimit: mobile ? 4 : 6,
+        },
+        border: { color: 'rgba(255,255,255,0.08)' }
+      }
+    }
+  }
+
+  const cityBarOptions = {
+    ...chartDefaults,
+    indexAxis: 'y',
+    responsive: true,
+    maintainAspectRatio: false,
+    scales: {
+      x: {
+        grid: { color: 'rgba(255,255,255,0.04)' },
+        ticks: {
+          color: 'rgba(255,255,255,0.5)',
+          font: { family: 'Inter', size: tickSm },
+          callback: v => v + '%',
+          maxTicksLimit: mobile ? 4 : 6,
+        },
+        border: { color: 'rgba(255,255,255,0.08)' }
+      },
+      y: {
+        grid: { display: false },
+        ticks: {
+          color: 'rgba(255,255,255,0.7)',
+          font: { family: 'Inter', size: tickMd },
+        },
+        border: { color: 'rgba(255,255,255,0.08)' }
+      }
+    }
+  }
+
   return (
     <section className="audience-section section" id="audience">
       <div className="container">
@@ -125,8 +180,8 @@ export default function Audience() {
                       position: 'bottom',
                       labels: {
                         color: 'rgba(255,255,255,0.7)',
-                        font: { family: 'Inter', size: 12 },
-                        padding: 20,
+                        font: { family: 'Inter', size: mobile ? 11 : 12 },
+                        padding: mobile ? 12 : 20,
                         usePointStyle: true,
                         pointStyleWidth: 8,
                       }
@@ -149,36 +204,13 @@ export default function Audience() {
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            <h3 className="card-title">Age & Gender Distribution</h3>
+            <h3 className="card-title">Age &amp; Gender Distribution</h3>
             <div className="chart-legend">
               <span className="legend-dot" style={{ background: '#833AB4' }} /> Men
               <span className="legend-dot" style={{ background: '#E1306C', marginLeft: 16 }} /> Women
             </div>
             <div className="bar-wrap">
-              <Bar
-                data={ageBarData}
-                options={{
-                  ...chartDefaults,
-                  responsive: true,
-                  maintainAspectRatio: false,
-                  scales: {
-                    x: {
-                      grid: { color: 'rgba(255,255,255,0.04)' },
-                      ticks: { color: 'rgba(255,255,255,0.5)', font: { family: 'Inter', size: 11 } },
-                      border: { color: 'rgba(255,255,255,0.08)' }
-                    },
-                    y: {
-                      grid: { color: 'rgba(255,255,255,0.04)' },
-                      ticks: {
-                        color: 'rgba(255,255,255,0.5)',
-                        font: { family: 'Inter', size: 11 },
-                        callback: v => v + '%'
-                      },
-                      border: { color: 'rgba(255,255,255,0.08)' }
-                    }
-                  }
-                }}
-              />
+              <Bar data={ageBarData} options={ageBarOptions} />
             </div>
           </motion.div>
 
@@ -192,31 +224,7 @@ export default function Audience() {
           >
             <h3 className="card-title">Top Cities</h3>
             <div className="bar-wrap">
-              <Bar
-                data={cityBarData}
-                options={{
-                  ...chartDefaults,
-                  indexAxis: 'y',
-                  responsive: true,
-                  maintainAspectRatio: false,
-                  scales: {
-                    x: {
-                      grid: { color: 'rgba(255,255,255,0.04)' },
-                      ticks: {
-                        color: 'rgba(255,255,255,0.5)',
-                        font: { family: 'Inter', size: 11 },
-                        callback: v => v + '%'
-                      },
-                      border: { color: 'rgba(255,255,255,0.08)' }
-                    },
-                    y: {
-                      grid: { display: false },
-                      ticks: { color: 'rgba(255,255,255,0.7)', font: { family: 'Inter', size: 12 } },
-                      border: { color: 'rgba(255,255,255,0.08)' }
-                    }
-                  }
-                }}
-              />
+              <Bar data={cityBarData} options={cityBarOptions} />
             </div>
           </motion.div>
 
@@ -262,9 +270,9 @@ export default function Audience() {
           viewport={{ once: true }}
           transition={{ delay: 0.3 }}
         >
-          <div className="callout-icon">📍</div>
+          <div className="callout-icon">&#128205;</div>
           <div className="callout-text">
-            <strong>85.7%+ audience from Bangalore</strong> — the perfect reach for brands targeting South India's most active urban market.
+            <strong>85.7%+ audience from Bangalore</strong> &mdash; the perfect reach for brands targeting South India&apos;s most active urban market.
           </div>
         </motion.div>
 
@@ -285,4 +293,3 @@ export default function Audience() {
     </section>
   )
 }
-

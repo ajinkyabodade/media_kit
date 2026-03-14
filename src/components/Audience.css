@@ -18,7 +18,7 @@
 }
 
 .card-title {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -27,6 +27,7 @@
   margin-bottom: 24px;
 }
 
+/* Doughnut */
 .doughnut-wrap {
   position: relative;
   max-width: 220px;
@@ -44,7 +45,7 @@
 
 .doughnut-pct {
   display: block;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 36px;
   letter-spacing: 2px;
   color: #E1306C;
@@ -52,19 +53,22 @@
 
 .doughnut-lbl {
   display: block;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 11px;
   color: rgba(255,255,255,0.4);
   letter-spacing: 1px;
 }
 
+/* Chart legend */
 .chart-legend {
   display: flex;
   align-items: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 12px;
   color: rgba(255,255,255,0.5);
   margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 4px;
 }
 
 .legend-dot {
@@ -73,8 +77,10 @@
   height: 10px;
   border-radius: 50%;
   margin-right: 6px;
+  flex-shrink: 0;
 }
 
+/* Bar charts */
 .bar-wrap {
   height: 220px;
   position: relative;
@@ -95,7 +101,7 @@
 }
 
 .country-name {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 13px;
   color: rgba(255,255,255,0.75);
   white-space: nowrap;
@@ -116,7 +122,7 @@
 }
 
 .country-pct {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 16px;
   letter-spacing: 1px;
   color: rgba(255,255,255,0.6);
@@ -141,7 +147,7 @@
 }
 
 .callout-text {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 16px;
   color: rgba(255,255,255,0.75);
   line-height: 1.6;
@@ -150,15 +156,6 @@
 .callout-text strong {
   color: #F77737;
   font-weight: 700;
-}
-
-@media (max-width: 900px) {
-  .audience-grid {
-    grid-template-columns: 1fr;
-  }
-  .country-row {
-    grid-template-columns: 100px 1fr 40px;
-  }
 }
 
 /* Data source note */
@@ -183,7 +180,7 @@
 }
 
 .data-source-note span {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 12px;
   line-height: 1.6;
   color: rgba(255,255,255,0.4);
@@ -193,4 +190,125 @@
 .data-source-note strong {
   color: rgba(255,255,255,0.65);
   font-weight: 600;
+}
+
+/* ── Tablet (≤900px) ─────────────────────────────────── */
+@media (max-width: 900px) {
+  .audience-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  .audience-card {
+    padding: 24px 20px;
+  }
+
+  .doughnut-wrap {
+    max-width: 200px;
+  }
+
+  .bar-wrap {
+    height: 200px;
+  }
+
+  .country-row {
+    grid-template-columns: 100px 1fr 40px;
+    gap: 10px;
+  }
+
+  .country-name {
+    font-size: 12px;
+  }
+
+  .callout-text {
+    font-size: 15px;
+  }
+}
+
+/* ── Mobile (≤600px) ─────────────────────────────────── */
+@media (max-width: 600px) {
+  .audience-grid {
+    gap: 12px;
+    margin-top: 24px;
+  }
+
+  .audience-card {
+    padding: 20px 16px;
+  }
+
+  .card-title {
+    font-size: 12px;
+    margin-bottom: 16px;
+  }
+
+  /* Doughnut — smaller on mobile */
+  .doughnut-wrap {
+    max-width: 180px;
+  }
+
+  .doughnut-pct {
+    font-size: 28px;
+  }
+
+  /* Bar charts — shorter on mobile */
+  .bar-wrap {
+    height: 180px;
+  }
+
+  /* Countries — tighter layout */
+  .country-row {
+    grid-template-columns: 90px 1fr 36px;
+    gap: 8px;
+  }
+
+  .country-name {
+    font-size: 11px;
+  }
+
+  .country-pct {
+    font-size: 13px;
+  }
+
+  /* Callout — stack vertically */
+  .audience-callout {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 20px 16px;
+  }
+
+  .callout-icon {
+    font-size: 26px;
+  }
+
+  .callout-text {
+    font-size: 14px;
+  }
+
+  /* Data source note */
+  .data-source-note {
+    padding: 12px 14px;
+    gap: 8px;
+  }
+
+  .data-source-note span {
+    font-size: 11px;
+  }
+}
+
+/* ── Small mobile (≤400px) ───────────────────────────── */
+@media (max-width: 400px) {
+  .country-row {
+    grid-template-columns: 80px 1fr 32px;
+    gap: 6px;
+  }
+
+  .bar-wrap {
+    height: 160px;
+  }
+
+  .doughnut-wrap {
+    max-width: 160px;
+  }
 }
