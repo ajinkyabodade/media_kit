@@ -1,11 +1,7 @@
-﻿# Dependencies
+# Dependencies
 node_modules/
 .pnp
 .pnp.js
-
-# Build output
-dist/
-build/
 
 # Vite cache (local + external)
 .vite/
@@ -46,12 +42,9 @@ desktop.ini
 *.sln
 *.sw?
 
-# Raw CSV source data files (not needed in repo)
+# Raw CSV source data files
 Audience.csv
 Follows.csv
 Interactions.csv
 Reach.csv
 Views.csv
-
-# Stale build asset copies at root
-assets/
