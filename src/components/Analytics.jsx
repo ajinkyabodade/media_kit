@@ -173,7 +173,7 @@ export default function Analytics() {
         >
           <div className="chart-header">
             <span className="chart-dot" style={{ background: metric.color }} />
-            <span className="chart-title">{metric.label} â€” 12 Feb – 13 Mar 2026</span>
+            <span className="chart-title">{metric.label} 12 Feb – 13 Mar 2026</span>
           </div>
           <div className="chart-area">
             <Line data={chartData} options={options} />

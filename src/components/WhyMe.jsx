@@ -5,7 +5,7 @@ const REASONS = [
   {
     icon: '🎯',
     title: 'Hyper-Local Reach',
-    desc: '57.9% of my audience is from Bangalore — the most valuable market for South India brands. Your message reaches the right people, in the right city.',
+    desc: '85.7% of my audience is from Bangalore — the most valuable market for South India brands. Your message reaches the right people, in the right city.',
     color: '#E1306C'
   },
   {

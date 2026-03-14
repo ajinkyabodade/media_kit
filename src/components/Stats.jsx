@@ -16,7 +16,7 @@ const STATS = [
   {
     value: 1.7,
     suffix: 'M+',
-    label: 'Top Reel Views',
+    label: 'Top Brand Collab Reel Views',
     sub: 'Single Reel',
     color: '#F77737',
     icon: '\uD83C\uDFAC',
@@ -32,7 +32,7 @@ const STATS = [
     decimals: 1
   },
   {
-    value: 57.9,
+    value: 85.7,
     suffix: '%',
     label: 'Bangalore Audience',
     sub: 'Local Dominance',

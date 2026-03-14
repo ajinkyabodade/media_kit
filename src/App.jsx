@@ -20,10 +20,10 @@ function App() {
       <Navbar />
       <Hero />
       <Stats />
+      <Collaborations />
       <PhotoGallery />
       <Audience />
       <Analytics />
-      <Collaborations />
       <WhyMe />
       <Services />
       <Contact />

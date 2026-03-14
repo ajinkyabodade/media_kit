@@ -54,8 +54,29 @@ export default function Contact() {
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
           >
-            Whether you're a travel brand, hotel, resort, or automobile company — let's create content that moves people. Reach out and let's build something extraordinary together.
+            Whether you're a travel brand, hotel, resort, or automobile company — let's create content that moves people
+            <b>Pricing??</b>
+            Creating travel content is my passion. I don’t do this for the money—if a collaboration is genuinely interesting and mutually beneficial, I’m happy to work within your budget. Share the details and objectives, and we’ll make it work.
           </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.4 }}
+          >
+            <b>Pricing??</b>
+          </motion.div>
+
+            <motion.div
+            className="contact-sub"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.4 }}
+          >
+            Creating travel content is my passion. I don’t do this for the money—if a collaboration is genuinely interesting and mutually beneficial, I’m happy to work within your budget. Share the details and objectives, and we’ll make it work.
+          </motion.div>
 
           <motion.div
             className="contact-cards"
