@@ -153,10 +153,10 @@ export default function Hero() {
           transition={{ delay: 1.5, duration: 0.7 }}
         >
           {[
-            { value: '36K+', label: 'Followers' },
-            { value: '1.7M+', label: 'Top Reel Views' },
-            { value: '95.8%', label: 'Indian Audience' },
-            { value: '8.2%', label: 'Engagement Rate' },
+            { value: data.stats.followers, label: 'Followers' },
+            { value: data.stats.topReelViews, label: 'Top Reel Views' },
+            { value: data.stats.audienceIndia, label: 'Indian Audience' },
+            { value: data.stats.engagementRate, label: 'Engagement Rate' },
           ].map((stat, i) => (
             <div key={i} className="hero-stat">
               <span className="hero-stat-value">{stat.value}</span>
