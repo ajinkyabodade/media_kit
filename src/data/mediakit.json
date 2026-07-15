@@ -610,7 +610,46 @@
                                     }
                                 ]
                   },
-    "collaborations":  [
+        "collaborations":  [
+                           {
+                               "id":  "flipkart",
+                               "brand":  "Flipkart",
+                               "type":  "Paid Collaboration",
+                               "category":  "E-commerce / Retail",
+                               "highlight":  "Brand Partnership",
+                               "highlightValue":  null,
+                               "description":  "A strategic collaboration with Flipkart, India's leading e-commerce platform, showcasing products and services through engaging reel content.",
+                               "reel":  "https://www.instagram.com/reel/DalHketO8YU/?igsh=eXJtYXZveGNpZHI0",
+                               "story":  null,
+                               "images":  [
+                                              "https://i.ibb.co/N2rnrWGM/Screenshot-2026-07-15-18-31-23-284-com-instagram-android-edit.jpg",
+                                              "https://i.ibb.co/N696Vs73/Screenshot-2026-07-15-18-34-52-737-com-instagram-android-edit.jpg",
+                                              "https://i.ibb.co/6cfvrYwx/Screenshot-2026-07-15-18-34-15-898-com-instagram-android-edit.jpg",
+                                              "https://i.ibb.co/WvTLRPMS/Screenshot-2026-07-15-18-33-49-082-com-instagram-android-edit.jpg",
+                                              "https://i.ibb.co/217yGv8T/Screenshot-2026-07-15-18-33-17-318-com-instagram-android.jpg"
+                                          ],
+                               "color":  "#2874F0"
+                           },
+                           {
+                               "id":  "designinfo",
+                               "brand":  "DesignInfo.in",
+                               "type":  "Paid Collaboration",
+                               "category":  "Design / Education",
+                               "highlight":  "Multi-Platform Campaign",
+                               "highlightValue":  null,
+                               "description":  "A comprehensive multi-platform collaboration with DesignInfo.in featuring Instagram reel, stories, and YouTube content, reaching diverse audiences across platforms.",
+                               "reel":  "https://www.instagram.com/reel/DaqGXXMua0K/?igsh=aGdkeDRmazR6eW9k",
+                               "stories":  [
+                                               "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDA2MTk2MDE5ODUwOTg1?story_media_id=3938270056035403356_2059831270\u0026igsh=MXZtbGZ2YTA2OGc1eQ=="
+                                           ],
+                               "youtube":  "https://youtu.be/HeczdGJnox0?si=xSjLPJ0P3od6GuiP",
+                               "images":  [
+                                              "https://i.ibb.co/Kjwh7X05/file-00000000a7c871faa4cb88dc0815b2bb.png",
+                                              "https://i.ibb.co/WptvsjLc/Screenshot-2026-07-15-18-41-44-719-com-instagram-android-edit.jpg",
+                                              "https://i.ibb.co/jk6y9RPs/Screenshot-2026-07-15-18-40-31-369-com-instagram-android-edit.jpg"
+                                          ],
+                               "color":  "#FF6B35"
+                           },
                            {
                                "id":  "escape2explore",
                                "brand":  "Escape2Explore",
@@ -702,46 +741,7 @@
                                               "https://i.ibb.co/Kxr37yPG/Screenshot-2026-03-14-08-38-33-005-com-instagram-android-edit.jpg",
                                               "https://i.ibb.co/0p1JLkjM/Screenshot-2026-03-14-08-38-23-054-com-instagram-android-edit.jpg"
                                           ],
-                                                              "color":  "#F77737"
-                           },
-                           {
-                               "id":  "flipkart",
-                               "brand":  "Flipkart",
-                               "type":  "Paid Collaboration",
-                               "category":  "E-commerce / Retail",
-                               "highlight":  "Brand Partnership",
-                               "highlightValue":  null,
-                               "description":  "A strategic collaboration with Flipkart, India's leading e-commerce platform, showcasing products and services through engaging reel content.",
-                               "reel":  "https://www.instagram.com/reel/DalHketO8YU/?igsh=eXJtYXZveGNpZHI0",
-                               "story":  null,
-                               "images":  [
-                                              "https://ibb.co/b5FRFNGk",
-                                              "https://ibb.co/0jCjDcQX",
-                                              "https://ibb.co/7x6gjvC5",
-                                              "https://ibb.co/4RQH0YXB",
-                                              "https://ibb.co/sdv28K5Z"
-                                          ],
-                               "color":  "#2874F0"
-                           },
-                           {
-                               "id":  "designinfo",
-                               "brand":  "DesignInfo.in",
-                               "type":  "Paid Collaboration",
-                               "category":  "Design / Education",
-                               "highlight":  "Multi-Platform Campaign",
-                               "highlightValue":  null,
-                               "description":  "A comprehensive multi-platform collaboration with DesignInfo.in featuring Instagram reel, stories, and YouTube content, reaching diverse audiences across platforms.",
-                               "reel":  "https://www.instagram.com/reel/DaqGXXMua0K/?igsh=aGdkeDRmazR6eW9k",
-                               "stories":  [
-                                               "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDA2MTk2MDE5ODUwOTg1?story_media_id=3938270056035403356_2059831270\u0026igsh=MXZtbGZ2YTA2OGc1eQ=="
-                                           ],
-                               "youtube":  "https://youtu.be/HeczdGJnox0?si=xSjLPJ0P3od6GuiP",
-                               "images":  [
-                                              "https://ibb.co/7J4CVXYS",
-                                              "https://ibb.co/QjdvXt46",
-                                              "https://ibb.co/gZjSbVLh"
-                                          ],
-                               "color":  "#FF6B35"
+                                                                                             "color":  "#F77737"
                            }
                        ],
     "travelPhotos":  [
