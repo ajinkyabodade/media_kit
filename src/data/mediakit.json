@@ -25,7 +25,7 @@
                   "avgViews":  "35,000+",
                   "engagementRate":  "8.2%",
                   "totalCollabs":  "15+",
-                  "topReelViews":  "1.7M+",
+                  "topReelViews":  "18M+",
                   "audienceIndia":  "95.8%",
                   "audienceBangalore":  "85.7%"
               },
@@ -631,26 +631,6 @@
                                "color":  "#2874F0"
                            },
                            {
-                               "id":  "designinfo",
-                               "brand":  "DesignInfo.in",
-                               "type":  "Paid Collaboration",
-                               "category":  "Design / Education",
-                               "highlight":  "Multi-Platform Campaign",
-                               "highlightValue":  null,
-                               "description":  "A comprehensive multi-platform collaboration with DesignInfo.in featuring Instagram reel, stories, and YouTube content, reaching diverse audiences across platforms.",
-                               "reel":  "https://www.instagram.com/reel/DaqGXXMua0K/?igsh=aGdkeDRmazR6eW9k",
-                               "stories":  [
-                                               "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDA2MTk2MDE5ODUwOTg1?story_media_id=3938270056035403356_2059831270\u0026igsh=MXZtbGZ2YTA2OGc1eQ=="
-                                           ],
-                               "youtube":  "https://youtu.be/HeczdGJnox0?si=xSjLPJ0P3od6GuiP",
-                               "images":  [
-                                              "https://i.ibb.co/Kjwh7X05/file-00000000a7c871faa4cb88dc0815b2bb.png",
-                                              "https://i.ibb.co/WptvsjLc/Screenshot-2026-07-15-18-41-44-719-com-instagram-android-edit.jpg",
-                                              "https://i.ibb.co/jk6y9RPs/Screenshot-2026-07-15-18-40-31-369-com-instagram-android-edit.jpg"
-                                          ],
-                               "color":  "#FF6B35"
-                           },
-                           {
                                "id":  "escape2explore",
                                "brand":  "Escape2Explore",
                                "type":  "Collaboration",
@@ -671,6 +651,26 @@
                                               "https://i.ibb.co/nshr2Xrw/Screenshot-2026-03-14-08-40-52-388-com-instagram-android-edit.jpg"
                                           ],
                                "color":  "#FCAF45"
+                           },
+                             {
+                               "id":  "designinfo",
+                               "brand":  "DesignInfo.in",
+                               "type":  "Paid Collaboration",
+                               "category":  "Design / Education",
+                               "highlight":  "Multi-Platform Campaign",
+                               "highlightValue":  null,
+                               "description":  "A comprehensive multi-platform collaboration with DesignInfo.in featuring Instagram reel, stories, and YouTube content, reaching diverse audiences across platforms.",
+                               "reel":  "https://www.instagram.com/reel/DaqGXXMua0K/?igsh=aGdkeDRmazR6eW9k",
+                               "stories":  [
+                                               "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDA2MTk2MDE5ODUwOTg1?story_media_id=3938270056035403356_2059831270\u0026igsh=MXZtbGZ2YTA2OGc1eQ=="
+                                           ],
+                               "youtube":  "https://youtu.be/HeczdGJnox0?si=xSjLPJ0P3od6GuiP",
+                               "images":  [
+                                              "https://i.ibb.co/Kjwh7X05/file-00000000a7c871faa4cb88dc0815b2bb.png",
+                                              "https://i.ibb.co/WptvsjLc/Screenshot-2026-07-15-18-41-44-719-com-instagram-android-edit.jpg",
+                                              "https://i.ibb.co/jk6y9RPs/Screenshot-2026-07-15-18-40-31-369-com-instagram-android-edit.jpg"
+                                          ],
+                               "color":  "#FF6B35"
                            },
                            {
                                "id":  "grips-go-karting",
