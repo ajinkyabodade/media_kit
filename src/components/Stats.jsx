@@ -2,11 +2,12 @@
 import { motion, useInView } from 'framer-motion'
 import CountUp from 'react-countup'
 import { useInView as useIOInView } from 'react-intersection-observer'
+import data from '../data/mediakit.json'
 import './Stats.css'
 
 const STATS = [
   {
-    value: 36,
+    value: data.stats.followersExact / 1000,
     suffix: 'K+',
     label: 'Followers',
     sub: 'Instagram',
@@ -14,7 +15,7 @@ const STATS = [
     icon: '\uD83D\uDC65'
   },
   {
-    value: 1.7,
+    value: 18,
     suffix: 'M+',
     label: 'Top Brand Collab Reel Views',
     sub: 'Single Reel',
@@ -23,7 +24,7 @@ const STATS = [
     decimals: 1
   },
   {
-    value: 95.8,
+    value: parseFloat(data.stats.audienceIndia),
     suffix: '%',
     label: 'Indian Audience',
     sub: 'Highly Targeted',
@@ -32,7 +33,7 @@ const STATS = [
     decimals: 1
   },
   {
-    value: 85.7,
+    value: parseFloat(data.stats.audienceBangalore),
     suffix: '%',
     label: 'Bangalore Audience',
     sub: 'Local Dominance',
@@ -41,7 +42,7 @@ const STATS = [
     decimals: 1
   },
   {
-    value: 8.2,
+    value: parseFloat(data.stats.engagementRate),
     suffix: '%',
     label: 'Engagement Rate',
     sub: 'Above Industry Avg',
@@ -50,7 +51,7 @@ const STATS = [
     decimals: 1
   },
   {
-    value: 10,
+    value: parseInt(data.stats.totalCollabs),
     suffix: '+',
     label: 'Brand Collabs',
     sub: 'Paid Partnerships',
