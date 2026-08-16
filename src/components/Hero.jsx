@@ -114,8 +114,9 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.1, duration: 0.7 }}
         >
-          Ajinkya Bodade &mdash; Riding through the soul of South India.<br />
-          <span className="hero-sub-accent">Traveller. Rider. Trekker. Storyteller.</span>
+          <strong>Best Moto Vlogger & Travel Content Creator in Bangalore</strong><br />
+          Ajinkya Bodade &mdash; Motorcycle Adventures, Automobile Content & South India Travel.<br />
+          <span className="hero-sub-accent">Moto Vlogger. Travel Creator. Rider. Trekker. Storyteller.</span>
         </motion.p>
 
         <motion.div
